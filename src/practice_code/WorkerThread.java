@@ -2,7 +2,8 @@ package practice_code;
 
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
+
+// Worker Thread that simply reads numbers from a queue and then inserts them into our Set (which since is STATIC is shared among all threads) 
 
 public class WorkerThread implements Runnable{
 
